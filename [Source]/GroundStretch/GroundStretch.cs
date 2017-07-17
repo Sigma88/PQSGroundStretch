@@ -16,7 +16,7 @@ namespace PQSMod_GroundStretch
 
             offset *= offset > 0 ? overMult : underMult;
 
-            data.vertHeight = sphere.radius + offset;
+            data.vertHeight = sphere.radius + altitude + offset;
         }
     }
 
